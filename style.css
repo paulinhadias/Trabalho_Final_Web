@@ -16,6 +16,11 @@ h1, h2 {
   letter-spacing: 2px;
 }
 
+b {
+  color: #4c1594;
+  font-weight: 600;
+}
+
 /* Navbar */
 .navbar {
   position: fixed;
@@ -166,11 +171,6 @@ h1, h2 {
   text-align: justify;
 }
 
-b {
-  color: #4c1594;
-  font-weight: 600;
-}
-
 .lista-categorias {
   margin: 30px auto;
   padding: 0;
@@ -187,19 +187,6 @@ b {
   font-size: 1rem;
 }
 
-/* Animações */
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-}
-
 .reveal {
   opacity: 0;
   transform: translateY(40px);
@@ -209,35 +196,6 @@ b {
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
-}
-
-/* Scroll */
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-track {
-  background: #fbfbfb;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #4c1594;
-  border-radius: 10px;
-}
-
-/* Responsivo*/
-@media (max-width: 768px) {
-  .intro-content h1 {
-    font-size: 3rem;
-  }
-
-  .intro-content h2 {
-    font-size: 3.2rem;
-  }
-
-  .nav-links {
-    gap: 15px;
-  }
 }
 
 /* Destaques (AJAX) */
@@ -311,7 +269,6 @@ b {
 }
 
 .page-indicados-content h1 {
-  font-family: 'Monoton', sans-serif;
   text-align: center;
   font-size: 4.5rem;
   margin-top: -150px;
@@ -325,10 +282,6 @@ b {
 }
 
 /* Indicados */
-.indicados {
-  padding: 100px 20px;
-}
-
 .indicados-container {
   max-width: 1200px;
   margin: auto;
@@ -434,7 +387,6 @@ b {
 }
 
 .page-vencedores-content h1 {
-  font-family: 'Monoton', sans-serif;
   font-size: 4rem;
   color: #ffffff;
   margin-top: -150px;
@@ -462,7 +414,6 @@ b {
 }
 
 .vencedor h2 {
-  font-family: 'Monoton', sans-serif;
   font-size: 2rem;
   color: #4c1594;
   margin-bottom: 30px;
@@ -526,7 +477,6 @@ b {
 }
 
 .page-votacao-content h1 {
-  font-family: 'Monoton', sans-serif;
   font-size: 4rem;
   color: #ffffff;
   margin-top: -150px;
@@ -676,4 +626,46 @@ b {
   max-width: 1000px;
   margin: auto;
   text-align: center;
+}
+
+/* Animações */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fbfbfb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4c1594;
+  border-radius: 10px;
+}
+
+/* Responsivo*/
+@media (max-width: 768px) {
+  .intro-content h1 {
+    font-size: 3rem;
+  }
+
+  .intro-content h2 {
+    font-size: 3.2rem;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
 }
