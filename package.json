@@ -1,0 +1,12 @@
+{
+  "name": "the-game-awards-2025",
+  "version": "1.0.0",
+  "description": "Site do The Game Awards 2025",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
